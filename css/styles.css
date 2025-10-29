@@ -1,0 +1,72 @@
+
+/* Base Style (for readability only, not graded heavily) */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: #222;
+  color: white;
+  padding: 1rem 1rem;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 2.5rem;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 10rem;
+  border-bottom: 1px solid #ccc;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #f4f4f4;
+}
+
+nav a:hover {
+  color: #00bcd4;
+  text-decoration: solid;
+}
+
+section h1, h2 {
+  color: #222;
+  border-left: 4px solid #00bcd4;
+  padding-left: 0.5rem;
+}
+
+
+/* SVG icon styling */
+.icon {
+  width: 40px;
+  height: 40px;
+  fill: white; /* ensures the icon color matches your theme */
+}
