@@ -115,7 +115,7 @@ header {
   color: var(--color-accent);
 }
 
-/* Rotation animation *
+/* Rotation animation */
 #theme-toggle:active {
   transform: rotate(360deg);
 }
